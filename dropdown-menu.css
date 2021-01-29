@@ -99,13 +99,6 @@ ul.nav-main *.list {
 	background: url(images/navigation-arrow.gif) no-repeat right top;
 }
 
-
-ul.nav-main *.discord {
-	padding-right: 22px;
-	background: url(images/discord.png) no-repeat right top;
-}
-
-
 ul.nav-sub {
 	visibility: hidden;
 	position: absolute;
