@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>ATG Live</title>
+      
+    
+      <link href="video-js.css" rel="stylesheet">
+      <script src="../vid/video.js"></script>
+      <script src="../vid/videojs-contrib-hls.js"></script>
+	  <link href="../dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
+    </head>
+	<BODY bgcolor="#808383" text="#ff9900" background="../images/space.jpg">
+		<CENTER>
+			<img src="..//../images/iitz-eliitez.png">
+		</CENTER>
+	<CENTER>
+		<ul id="navigation" class="nav-main">
+			<li><a href="..//..">Home</a></li>
+				<li class="list"><a href="#">Live Stream</a>
+				<ul class="nav-sub">
+					<li><a href="../vid/atg.html">ATG Live</a></li>
+					<li><a href="../vid/tv4.html">TV4 Nyheter</a></li>
+					<li><a href="../vid/exp.html">Expressen</a></li>
+					<li><a href="../vid/tv10.html">Kanal 10</a></li>
+					<li><a href="../vid/him.html">Himelen</a></li>					
+					<li><a href="../vid/opkn.html">Öppna Kanalen</a></li>					
+					<li><a href="../vid/fight.html">MMA UFC Sports</a></li>								
+					<li><a href="../radio/radio.html">Radio</a></li> 
+		</ul>
+		</li>
+		<li class="list"><a href="#">Servers</a>
+		<ul class="nav-sub">
+			<li><a href="http://www.psdgraphics.com/about/">About PSDGraphics</a></li>
+			<li><a href="http://www.psdgraphics.com/commercial-use/">Commercial Use</a></li>
+			<li><a href="http://www.psdgraphics.com/about/terms-of-use/">Terms Of Use</a></li>
+		</ul>
+		</li>
+			<li><a href="http://www.psdgraphics.com/advertise/">Radio</a></li>
+			<li><a href="http://www.psdgraphics.com/contact/">Contact</a></li>
+			<li class="discord"><a href="">Discord</a></li>
+		</ul>
+	</CENTER>
+<script>
+var player = videojs('my_video_1');
+player.play();
+</script>
+<div class="container">
+		<video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+		data-setup='{}'>
+        <source src="http://vod.tv7.fi:1935/tv7-se/_definst_/mp4:tv7-se.stream_360p/playlist.m3u8" type="application/x-mpegURL">
+		</video>
+		</div>
+		<p>&#9400; 2021 SandSpace.</p>
+</body>
+</html>

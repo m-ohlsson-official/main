@@ -1,0 +1,79 @@
+body {
+    background:url(images/IMG_8510.png) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  width: 950px;
+  height: 857px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter-filter: blur(5px);
+  z-index: 1;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #e6e6e6, 0 0 25px #e6e6e6, 0 0 5px #a6a6a6;
+}
+.container:before {
+	content: '';
+	position: absolute;
+	background: inherit;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-shadow: inset 0 0 2000px rgba(255, 2, 255, .5);
+	filter: blur(10px);
+	margin: -20px;
+	z-index: -1;
+}
+#navigation {
+	width: 950px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	background: url(images/div-back.png) no-repeat left top;
+}
+#divdown {
+	width: 950px;
+	height: 857px;
+	padding: 17px 15px 0 15px;
+	font: bold 12px Arial;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background: url(images/div-down.png) no-repeat left top;
+} 
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+#navigation ul li {
+	display: inline;
+	margin: 0px;
+} 
+#navigation ul li a {
+	height:33px;
+	display: block;
+	float: left;
+	padding: 17px 15px 0 15px;
+	font: bold 12px Arial;
+	color: #333;
+	text-decoration: none;
+	background: url(images/navigation-separator.png) no-repeat right center;
+} 
+
+#navigation ul li a:hover {
+	color:#363636;
+	background: url(images/navigation-hover.png) repeat-x left top;
+}
+
+#navigation ul li#active a {
+	color:#363636;
+	background: url(images/navigation-hover.png) repeat-x left top;
+}
